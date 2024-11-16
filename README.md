@@ -28,17 +28,17 @@ y = 1 + u * sind(b);
 
 2. **Inverse Kinematics**:
 
-A MATLAB function block converts end-effector coordinates (‘x’, ‘y’) to joint angles (‘θ1’, ‘θ2’).
+   A MATLAB function block converts end-effector coordinates (`x`, `y`) to joint angles (`θ1`, `θ2`).
 
 3. **PID Control**:
 
-The PID controller is configured for each joint to minimize the error between the desired and actual joint angles.
+   The PID controller is configured for each joint to minimize the error between the desired and actual joint angles.
 
-The controller parameters (‘Kp’, ‘Ki’, ‘Kd’) are tuned to ensure optimal response time and minimal steady-state error.
+   The controller parameters (`Kp`, `Ki`, `Kd`) are tuned to ensure optimal response time and minimal steady-state error.
 
 4. **System Dynamics**:
 
-The robotic arm’s physical properties, such as inertia and damping, are modeled in a Simulink subsystem.
+  The robotic arm’s physical properties, such as inertia and damping, are modeled in a Simulink subsystem.
 
 ## Installation and Setup
 1. Clone the Repository:
@@ -47,7 +47,7 @@ git clone https://github.com/Varun-Ajith/Robotic-Arm-MATLAB.git
 ```
 2. Open Simulink Model:
 
-Navigate to the `SimulinkModel` folder and open `Line_Follower.slx`.
+Open `Line_Follower.slx`.
 
 3. Run Simulations:
 
