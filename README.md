@@ -69,7 +69,7 @@ Execute the model to simulate the PID control for trajectory tracking.
 
 - Explore feedforward control for improved response.
 
-License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
