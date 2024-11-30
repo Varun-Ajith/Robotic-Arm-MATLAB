@@ -57,9 +57,14 @@ Execute the model to simulate the PID control for trajectory tracking.
 
 - Initial simulations show that the PID controller enables the robotic arm to follow circular trajectories with minimal overshoot and steady-state errors.
 
-![Desired_x and actual_x](xg.png)
-![Desired_y and actual_y](yg.png)
-![x and y](xyg.png)
+
+
+
+
+| **Desired_x vs actual_x**                                             | **Desired y vs actual y**                        | **x and y**                                      |
+|-----------------------------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| ![x-graph](xg.png)                                                    | ![y-graph](yg.png)                               | ![xy-grpah](xyg.png)                             |
+
 
 ## Future Work
 
